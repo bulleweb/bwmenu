@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<title>bwmenu</title>
+
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<!-- css -->
+	<link rel="stylesheet" href="css/main.css">
+	
+
+</head>
+
+        <body>
+
+            <!-- Bouton Menu -->
+            <div id="bt-monmenu" class="bt-menu">
+              <a href="#" id="trigger" class="bt-menu-trigger"><span>Menu</span></a>
+            </div> <!-- /Bouton Menu -->
+
+
+            <!-- Menu -->
+            <div id="monmenu">
+                  <span class="fa fa-life-ring" style="display:none;"></span>
+                  <img src="http://lorempicsum.com/futurama/200/200/1" alt="" id="logo-petit" />
+              <ul>
+                <li><span class="fa fa-life-ring"></span><a href="#">Menu 1</a>
+                  <ul>
+                    <li><span class="fa fa-qq"></span><a href="#">Menu 1-1</a>
+                      <ul>
+                        <li><span class="fa fa-beer"></span><a href="#">Menu 1-1-1</a></li>
+                        <li><span class="fa fa-yahoo"></span><a href="#">Menu 1-1-2</a></li>
+                      </ul>
+                    </li>
+                    <li><span class="fa fa-bolt"></span><a href="#">Menu 1-2</a></li> 
+                    <li class=""><span class="fa fa-bomb"></span>
+                    <a href="#" class="">Menu 1-3</a>
+                      <ul>
+                        <li><span class="fa fa-bullhorn"></span><a href="#">Menu 1-3-1</a></li>
+                        <li><span class="fa fa-bug"></span><a href="#">Menu 1-3-2</a></li>
+                      </ul>
+                    </li>
+                  </ul> 
+                </li>
+                <li class=""><span class="fa fa-paper-plane"></span><a href="#">Menu 2</a>
+                  <ul>
+                    <li><span class="fa fa-vine"></span><a href="#">Menu 2-1</a>
+                      <ul>
+                        <li><span class="fa fa-bell-o"></span><a href="#">Menu 2-1-1</a></li>
+                        <li><span class="fa fa-barcode"></span><a href="#">Menu 2-1-2</a></li>
+                      </ul>
+                    </li>
+                    <li><span class="fa fa-mobile"></span><a href="#">Menu 2-2</a></li> 
+                    <li class=""><span class="fa fa-gear"></span>
+                    <a href="#" class="">Menu 2-3</a>
+                      <ul>
+                        <li><span class="fa fa-circle-o"></span><a href="#">Menu 2-3-1</a></li>
+                        <li><span class="fa fa-refresh"></span><a href="#">Menu 2-3-2</a></li>
+                      </ul>
+                    </li>
+                  </ul> 
+                </li>
+                <li class=""><span class="fa fa-taxi"></span><a href="#">Menu 3</a></li>
+              </ul>
+            </div>
+            <!-- /Menu -->
+
+
+
+            <!-- container -->
+        	<div class="container-fluid">
+
+                
+                 <div style="text-align:left;display:block;margin:0 auto;width: 250px;">
+                 <p>BW Menu</p>
+                    //Paramètres par défaut<br><br>
+                    var defauts=<br>
+                    {<br>
+                    &nbsp;&nbsp;'button':"#bt-monmenu",<br>
+                    &nbsp;&nbsp;'btstatic':0,<br>
+                    &nbsp;&nbsp;'margin': "260px",<br>
+                    &nbsp;&nbsp;'decal':"30px"<br>
+                    };     <br>
+                </div><br>
+                <div style="text-align:left;display:block;margin:0 auto;width: 250px;">
+                    //Activation<br><br>
+                    
+                        $('#monmenu').bwmenu()<br>
+                    
+                </div>
+        	</div><!-- /container -->
+
+        	<script src="js/vendor/jquery-2.1.1.min.js"></script>
+
+            <script src="js/bwmenu.js"></script>
+
+            <script>
+                $('#monmenu').bwmenu()
+            </script>
+
+        </body>
+        </html>

@@ -1,0 +1,47 @@
+/***************************************
+***************   GLOBAL    ************
+****************************************/
+
+html,body {
+	font-family: $montserrat;
+	font-weight: 400;
+
+}
+
+ul, li {
+	padding:0;
+	margin:0;
+}
+
+body {
+	text-align: center;
+}
+
+.container-fluid {
+	padding:0;
+	height: 100%;
+}
+
+
+#bt-monmenu {
+	position:relative;
+	background-color: $mauve;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	z-index: 3;
+	left:10px;
+	top:10px;
+}
+
+#bt-monmenu2 {
+	position:relative;
+	display: inline-block;
+	background-color: $mauve;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	z-index: 3;
+	left:10px;
+	top:10px;
+}
