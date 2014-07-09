@@ -63,6 +63,17 @@
 
 		   	// Parsage des ul
 			elem.find('ul').addClass('bt-cache');
+
+			// Ajoute fleche si sous menu
+			elem.find('li').each( function () {
+				if ($( this ).has( "ul" ).length) {
+					$( this ).prepend('<span class="bwflechesousmenu fa fa-caret-right "></span>')
+				} 
+			})
+
+
+
+
 			//elem.find('ul li ul li').html(elem.find('ul li').html()+'bt');
 		    elem.children('ul').addClass('bt-montre');
 		};

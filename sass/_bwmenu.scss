@@ -30,6 +30,7 @@
 	a, a:hover, a:visited {
 		color:#fff;
 		text-decoration: none;
+		vertical-align: baseline;
 	}
 
 	img {
@@ -120,6 +121,7 @@
 	width: 100%;
 	font-family: $montserrat;
 	font-weight: 400;
+	vertical-align: baseline;
 
 	.fa:before {
 		color:$mauvefonce;
@@ -130,6 +132,15 @@
 	cursor: pointer;
 }
 
+
+.bwflechesousmenu {
+	position: absolute;
+	right: 0px;
+}
+
+.bwflechesousmenu:before {
+	color:$mauvefonce;
+}
 
 /* Bouton */	
 .bt-menu-trigger {
@@ -146,9 +157,9 @@
 .bt-menu-trigger span {
 	position: absolute;
 	top: 50%;
-	left: 0;	
+	left: 1px;	
 	display: block;
-	width: 100%;
+	width: 90%;
 	height: 4px;
 	margin-top: -2px;
 	background-color: $creme;
@@ -198,5 +209,4 @@
 	-webkit-transform: translateY(0) rotate(-45deg);
 	transform: translateY(0) rotate(-45deg);
 }
-
 
