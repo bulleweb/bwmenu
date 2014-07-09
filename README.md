@@ -13,6 +13,4 @@ var defauts=
 }; 
 
 //Activation
-<script>
 $('#monmenu').bwmenu()
-</script>
